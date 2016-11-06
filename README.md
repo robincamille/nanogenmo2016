@@ -1,6 +1,6 @@
 # If on a winter's night a library cardholder
 
-National Novel Generation Month project
+My [National Novel Generation Month 2016](https://github.com/NaNoGenMo/2016) project
 
 The script generates a new ~50,000-word, Markdown-formatted novel every time it is run. It is inspired by *If on a winter's night a traveler* by Italo Calvino. 
 
