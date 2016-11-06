@@ -3,9 +3,9 @@ National Novel Generation Month project
 
 My project is titled *If on a winter's night a library cardholder*.
 
-Project status: In progress
+The script generates a new ~50,000-word, Markdown-formatted novel every time it is run. It is inspired by *If on a winter's night a traveler* by Italo Calvino. 
 
-The script generates a new ~50,000-word novel every time it is run. It is inspired by *If on a winter's night a traveler* by Italo Calvino. 
+Project status: In progress
 
 To do: Book excerpt formatting; maybe add more pre-written blurbs; appendix?
 
@@ -13,8 +13,8 @@ To do: Book excerpt formatting; maybe add more pre-written blurbs; appendix?
 You, the protagonist, half-remember a book you read long ago and want to read again — but you can't remember the title. You visit each of the 216 library branches in New York City looking for it. At each library, you find a book that looks familiar and you read a page. Is this the book you've been trying to find? 
 
 ## Data
-- NYPL, BPL, and QPL branch names and addresses
-- Project GITenberg text files 
+- NYPL, BPL, and QPL branch names and addresses (compiled from [NYC Open Data](https://nycopendata.socrata.com))
+- Project GITenberg text files ([main project page](https://gitenberg.org/); [data source](https://github.com/gitenberg-dev/giten_site/tree/master/assets))
 
 Note: I don't think I'll write a script that crawls the NYPL/BPL/QPL catalogs, and they don't have APIs (as far as I know). So the books the protagonist reads are random texts from Project Gutenberg that may not necessarily be found in the actual library branches. (Even though that would be way cooler.) 
 
