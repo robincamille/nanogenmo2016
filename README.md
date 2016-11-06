@@ -1,13 +1,13 @@
 # nanogenmo2016
 National Novel Generation Month project
 
-My project is titled *If on a winter's night a library cardholder*.
+Project title: **_If on a winter's night a library cardholder_**.
 
 The script generates a new ~50,000-word, Markdown-formatted novel every time it is run. It is inspired by *If on a winter's night a traveler* by Italo Calvino. 
 
-Project status: In progress
+**Project status:** In progress
 
-To do: Book excerpt formatting; maybe add more pre-written blurbs; appendix?
+**To do:** Book excerpt formatting; maybe add more pre-written blurbs; appendix?
 
 ## Synopsis
 You, the protagonist, half-remember a book you read long ago and want to read again — but you can't remember the title. You visit each of the 216 library branches in New York City looking for it. At each library, you find a book that looks familiar and you read a page. Is this the book you've been trying to find? 
