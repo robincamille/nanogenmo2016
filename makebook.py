@@ -16,7 +16,7 @@ import excerpt, time
 
 outfile = open('drafts/' + str(time.time()) + '.md','w')
 
-outfile.write("# If on an winter's night a library cardholder\n\n")
+outfile.write("# If on a winter's night a library cardholder\n\n")
 outfile.write("## Robin Camille Davis\n\n")
 outfile.write("*Generated for NaNoGenMo 2016*\n\n\n\n\n")
 
