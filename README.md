@@ -11,16 +11,16 @@ The script generates a new ~50,000-word, Markdown-formatted novel every time it 
 **To do:** Book excerpt formatting; maybe add more pre-written blurbs
 
 ## Synopsis
-You, the protagonist, half-remember a book you read long ago and want to read again — but you can't remember the title. You visit each of the 216 library branches in New York City looking for it. At each library, you find a book that looks familiar and you read a page. Is this the book you've been trying to find? 
+You, the protagonist, half-remember a book you read long ago and want to read again — but you can't remember the title. You visit each of the 216 library branches in New York City looking for it. At each library, you find a book that looks familiar and you read a page... Is this the book you've been trying to find? 
 
 ## Data
 - NYPL, BPL, and QPL branch names and addresses (compiled from [NYC Open Data](https://nycopendata.socrata.com))
 - Project GITenberg text files ([main project page](https://gitenberg.org/); [data source](https://github.com/gitenberg-dev/giten_site/tree/master/assets))
 
 Notes:
-- I don't think I'll write a script that crawls the NYPL/BPL/QPL catalogs, and they don't have APIs (as far as I know). So the books the protagonist reads are random texts from Project Gutenberg that may not necessarily be found in the actual library branches. (Even though that would be way cooler.) 
+- I don't think I'll write a script that crawls the NYPL/BPL/QPL catalogs, and they don't have APIs (as far as I know). So the books the protagonist reads are random texts from Project Gutenberg that may not necessarily be found in the actual library branches. (Even though that would be waaay cooler.) 
 - NYPL: New York Public Library, serving Manhattan, the Bronx, and Staten Island. BPL: Brooklyn Public Library. QPL: Queens Public Library.
-- Project Gutenberg texts are in the public domain. As with any historical collection, there are historical attitudes and language choices that aren't so hot today. Let's hope you, the protagonist, choose wisely...
+- Project Gutenberg texts are in the public domain. As with any historical collection, there are historical attitudes and language choices that aren't so hot today. Let's hope the protagonist chooses wisely...
 
 ## Sample excerpt
 
