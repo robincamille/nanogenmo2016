@@ -58,12 +58,12 @@ for i in liblist[:-1]:
     outfile.write(s[1])
     outfile.write(s[2])
 
-endings = ["'Yes!' you shout, remembering too late that you are in a library. You are holding the book you've been searching for all evening. You hurry to the circulation desk to check it out, the last patron of the night. You rush home, looking forward to enjoying the book once more over tea. ", \
-"You smile to yourself. Yes, this book, this is the book. You walk to the checkout desk at 4:59pm, just before the library closes. On the train back to your apartment, you open to page 1. It's going to be a very good night. ", \
-"You can't believe it. You found it! You hug the book to your chest and hurry to the circulation desk to check it out before they close up for the night. As soon as you're on the subway platform, you begin reading.", \
-"'Library's closing,' the security guard announces. Your heart sinks. This was the last library on your list, and this isn't the book. You'll come back tomorrow morning to walk through the stacks more carefully. It's out there: you just have to find it. ", \
-"This isn't the book, either... Maybe the book you think you remember doesn't exist. Maybe you dreamed it. As the librarians close up for the night, you walk slowly toward the door. The memory of the book is already starting to fade.", \
-"It's 5:00, and the library is closing. You don't think this is the book, but it still piqued your interest. You want to keep reading. You check it out and head home to read it."]
+endings = ["'Yes!' you shout, remembering too late that you are in a library. You are holding the book you've been searching for all evening. You hurry to the circulation desk to check it out, the last patron of the night.\n\nYou rush home, looking forward to enjoying the book once more over tea. ", \
+"You smile to yourself. Yes, this book, this is the book. You walk to the checkout desk at 4:59pm, just before the library closes. On the train back to your apartment, you open to page 1.\n\nIt's going to be a very good night. ", \
+"You can't believe it. You found it! You hug the book to your chest and hurry to the circulation desk to check it out before they close up for the night.\n\nAs soon as you're on the subway platform, you begin reading.", \
+"'Library's closing,' the security guard announces. Your heart sinks. This was the last library on your list, and this isn't the book. You'll come back tomorrow morning to walk through the stacks more carefully.\n\nIt's out there: you just have to find it. ", \
+"This isn't the book, either... Maybe the book you think you remember doesn't exist. Maybe you dreamed it. As the librarians close up for the night, you walk slowly toward the door. \n\nThe memory of the book is already starting to fade.", \
+"It's 5:00, and the library is closing.\n\nYou don't think this is the book, but it still piqued your interest. You want to keep reading. You check it out and head home to read it."]
 
 end = endings[randint(0,len(endings)-1)] # choose 1 of 6 possible endings
 
@@ -87,15 +87,15 @@ outfile.write('\n\n## The End')
 
 outfile.write('\n\n# Appendix A\n## Books you read, in order\n\n')
 for b in excerpt.appendixa():
-    b = '*' + b + '*\n'
+    b = '- *' + b + '*\n'
     outfile.write(b)
 
 outfile.write('\n\n# Appendix B\n## Libraries you visited, in order\n\n')
 for i in liblist:
-    l = i[2] + ' at ' + i[1][1:-2] + ' (' + i[0] + ')\n'
+    l = '- ' + i[2] + ' at ' + i[1][1:-2] + ' (' + i[0] + ')\n'
     outfile.write(l)
 
-outfile.write('\n[Code repository on GitHub](https://github.com/robincamille/nanogenmo2016)\n\
+outfile.write('\n\n___\n\n[Code repository on GitHub](https://github.com/robincamille/nanogenmo2016)\n\
 *Code and outputs: CC-BY-NC.\nRobin Camille Davis, 2016.*')
 
 outfile.close()

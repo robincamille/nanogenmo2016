@@ -25,6 +25,7 @@ for b in pglistlong:
 
 usedbooks = []
 usedbooktitles = []
+usedbooktitlesandlinks = []
 foundit = ["\n\nYou browse the shelves and find yourself attracted to a \
 book entitled *%s*. Is this the one you've been looking for?", "\n\nYou approach \
 a kindly librarian and ask him about the book you're seeking. 'I think it \
@@ -84,6 +85,7 @@ def readbook():
 
     urll = 'https://raw.githubusercontent.com/GITenberg/' + codetitle + \
            '/master/' + number + '.txt'
+    guturl = 'http://www.gutenberg.org/ebooks/' + number
 
     time.sleep(3) # politeness
     req = urllib2.Request(urll)
@@ -91,6 +93,13 @@ def readbook():
     the_page = response.read()
 
     ex = the_page[10000:11000]
+
+    if "Project Gutenberg" in ex:
+        ex = the_page[30000:31000]
+    elif "PROJECT GUTENBERG" in ex:
+        ex = the_page[30000:31000]
+    else:
+        pass
 
     
     # stitch together line breaks
@@ -133,8 +142,10 @@ def readbook():
     outtro = (leave[randint(0,len(leave)-1)])
 
     usedbooktitles.append(title)
+    titlelink = '[' + title + '](' + guturl + ')'
+    usedbooktitlesandlinks.append(titlelink)
     
     return ' '.join(intro)[1:], blurb, outtro
 
 def appendixa():
-    return usedbooktitles
+    return usedbooktitlesandlinks
