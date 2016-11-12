@@ -59,7 +59,7 @@ for i in liblist[:-1]:
     outfile.write(s[2])
 
 endings = ["'Yes!' you shout, remembering too late that you are in a library. You are holding the book you've been searching for all evening. You hurry to the circulation desk to check it out, the last patron of the night.\n\nYou rush home, looking forward to enjoying the book once more over tea. ", \
-"You smile to yourself. Yes, this book, this is the book. You walk to the checkout desk at 4:59pm, just before the library closes. On the train back to your apartment, you open to page 1.\n\nIt's going to be a very good night. ", \
+"You smile to yourself. Yes, this book, this is the book. You walk to the checkout desk at 4:59pm, just before the library closes. On the train back to your apartment, you open to page 1.", \
 "You can't believe it. You found it! You hug the book to your chest and hurry to the circulation desk to check it out before they close up for the night.\n\nAs soon as you're on the subway platform, you begin reading.", \
 "'Library's closing,' the security guard announces. Your heart sinks. This was the last library on your list, and this isn't the book. You'll come back tomorrow morning to walk through the stacks more carefully.\n\nIt's out there: you just have to find it. ", \
 "This isn't the book, either... Maybe the book you think you remember doesn't exist. Maybe you dreamed it. As the librarians close up for the night, you walk slowly toward the door. \n\nThe memory of the book is already starting to fade.", \
