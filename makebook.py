@@ -21,7 +21,7 @@ outfile.write("## Robin Camille Davis\n\n")
 outfile.write("*Generated for NaNoGenMo 2016*\n\n\n\n\n")
 
 outfile.write("\nLong ago, you read a book. It was an extraordinary book. \
-You haven't though about it in years, \
+You haven't thought about it in years, \
 though, until this afternoon, when \
 you remembered the book in a moment of drowsiness. *That book!* What \
 was it called? Alas! You have forgotten the title.\n\nBut you feel sure \
