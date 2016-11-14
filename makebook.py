@@ -37,7 +37,7 @@ leave your apartment, heading to the nearest library branch.\n")
 libfilename = open('nyc_public_libraries.tsv','r')
 liblistraw = libfilename.read()
 libfilename.close()
-liblistraw = liblistraw.split('\r')
+liblistraw = liblistraw.split('\n')
 liblist = [l.split('\t') for l in liblistraw]
 liblist = liblist[1:-1]
 shuffle(liblist)
