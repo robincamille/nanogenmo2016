@@ -6,9 +6,9 @@ The script generates a new ~50,000-word, Markdown-formatted novel every time it 
 
 [Sample output (full-length generated novel)](https://github.com/robincamille/nanogenmo2016/blob/master/outputs/novel3.md)
 
-**Project status:** Almost done
+**Project status:** Complete
 
-**To do:** Book excerpt formatting; maybe add more pre-written blurbs
+**To do:** Printed book (on its way!)
 
 ## Synopsis
 You, the protagonist, half-remember a book you read long ago and want to read again — but you can't remember the title. You visit each of the 216 library branches in New York City looking for it. At each library, you find a book that looks familiar and you read a page... Is this the book you've been trying to find? 
