@@ -8,7 +8,7 @@
 
 
 
-Long ago, you read a book. It was an extraordinary book. You haven't though about it in years, though, until this afternoon, when you remembered the book in a moment of drowsiness. *That book!* What was it called? Alas! You have forgotten the title.
+Long ago, you read a book. It was an extraordinary book. You haven't thought about it in years, though, until this afternoon, when you remembered the book in a moment of drowsiness. *That book!* What was it called? Alas! You have forgotten the title.
 
 But you feel sure that you could recognize it by sight, or at least in reading the first few pages. And surely one of the public libraries of New York City will have this book in their collections. You must find it; you must read it. It's only 4:00. You have time. You pocket your MetroCard and leave your apartment, heading to the nearest library branch.
 
