@@ -10,7 +10,7 @@ By my reckoning, there are 4.5 x 10<sup>1366</sup> possible novels that can be g
 
 **Project status:** Complete
 
-![book open to two pages of text](http://www.robincamille.com/projects/ifonawinters/ifonawinters4.jpg "Printed version")
+![book open to two pages of text](http://www.robincamille.com/projects/ifonawinters/ifonawinters2.jpg "Printed version")
 I had a hardback book printed of one of the novel's many outputs. 
 
 ## Synopsis
