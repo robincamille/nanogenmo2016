@@ -10,7 +10,8 @@ By my reckoning, there are 4.5 x 10<sup>1366</sup> possible novels that can be g
 
 **Project status:** Complete
 
-**To do:** Printed book (on its way!)
+![book open to two pages of text](http://www.robincamille.com/projects/ifonawinters/ifonawinters4.jpg "Printed version")
+I had a hardback book printed of one of the novel's many outputs. 
 
 ## Synopsis
 You, the protagonist, half-remember a book you read long ago and want to read again — but you can't remember the title. You visit each of the 216 library branches in New York City looking for it. At each library, you find a book that looks familiar and you read a page... Is this the book you've been trying to find? 
