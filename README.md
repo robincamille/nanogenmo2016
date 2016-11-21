@@ -25,6 +25,13 @@ Notes:
 - NYPL: New York Public Library, serving Manhattan, the Bronx, and Staten Island. BPL: Brooklyn Public Library. QPL: Queens Public Library.
 - Project Gutenberg texts are in the public domain. As with any historical collection, there are historical attitudes and language choices that aren't so hot today. Let's hope the protagonist chooses wisely...
 
+## How to run 
+1. Download this repository. All data files necessary are included.
+1. Create a folder called 'drafts' inside the main repo folder.
+1. Run makebook.py from the command line or in IDLE.
+1. It should start printing library names to the screen. The script takes about 18 minutes total to run. (I built in very short pauses for politeness.)
+1. The script outputs a .md file inside the drafts folder. The filename is a timestamp. You should be able to open this file in a text editor or browser. 
+
 ## Sample excerpt
 
 You arrive at 79-50 Bell Boulevard, Bayside, and find yourself on the steps of Windsor Park Library.
