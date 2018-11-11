@@ -10,7 +10,7 @@ I believe that there are 4.5 x 10<sup>1366</sup> possible novels that can be gen
 
 **Project status:** Complete
 
-![book open to two pages of text](http://www.robincamille.com/projects/ifonawinters/ifonawinters2.jpg "Printed version")
+<img src="http://robincamille.com/assets/nanogenmo2016-open-book.jpg" alt="Slim hardback book open to two pages of text"/>
 I had a hardback book printed of one of the novel's many outputs. 
 
 ## Synopsis
